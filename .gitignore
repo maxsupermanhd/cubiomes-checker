@@ -1,0 +1,5 @@
+*.txt
+*.o
+*.a
+find
+a.out
