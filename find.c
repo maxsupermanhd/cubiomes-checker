@@ -1,9 +1,8 @@
 
-// gcc find.c cubiomes/libcubiomes.a -Icubiomes/ -lm -lpthread -O3 -o find && ./find
+// gcc find.c cubiomes/libcubiomes.a -Icubiomes/ -lm -Ofast -o find && ./find
 
 #include "generator.h"
 #include <stdio.h>
-#include <pthread.h>
 #include <errno.h>
 #include <string.h>
 
